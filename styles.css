@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #1c1e21;
+}
+
+#gear {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#post {
+  width: 500px;
+  height: 681px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  border: 1px solid white;
+}
+
+.header > i {
+  color: white;
+  padding: 12px;
+  font-size: 30px;
+  width: 20%;
+}
+
+.name {
+  width: 100%;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.options {
+  width: 60%;
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+
+.imagen {
+  background-image: url(./data/perro.jpg);
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.buttons {
+  display: flex;
+  background-color: white;
+
+  height: 40px;
+  justify-content: start;
+  align-items: center;
+  width: 85%;
+}
+
+.buttons > i {
+  padding: 10px;
+  font-size: 25px;
+}
+
+.main-buttons {
+  display: flex;
+  background-color: white;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.description {
+  background-color: white;
+  font-size: 12px;
+  text-align: left;
+  padding: 10px;
+}
+
+.footer {
+  background-color: white;
+  padding: 0px 10px 10px 10px;
+}
